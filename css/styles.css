@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100vh;
+}
+
+form {
+  display: flex;
+}
+
+.autocomplete {
+  position: relative;
+}
+
+.list-container {
+  position: absolute;
+
+  border: 1px solid #d4d4d4;
+  border-top: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.list-item {
+  padding: 5px;
+
+  cursor: pointer;
+}
+
+.list-item:hover {
+  background: #d4d4d4;
+}
